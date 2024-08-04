@@ -1,0 +1,7 @@
+
+-i -n -o linux test/grep_test.txt
+-i -o -n linux test/grep_test.txt
+-n -i -o linux test/grep_test.txt
+-n -o -i linux test/grep_test.txt
+-o -i -n linux test/grep_test.txt
+-o -n -i linux test/grep_test.txt
